@@ -1,0 +1,6 @@
+{
+  "extensions" : [
+	"GitHub.copilot"
+	],
+  "postCreateCommand": "npm install -g typescript"
+}
