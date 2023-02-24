@@ -1,6 +1,10 @@
 {
-  "extensions" : [
-	"GitHub.copilot"
-	],
-  "postCreateCommand": "npm install -g typescript"
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	},
+	"postCreateCommand": "npm install -g typescript"
 }
